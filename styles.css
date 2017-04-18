@@ -8,8 +8,7 @@
 .info {
     width: 300px;
     margin-top: 10px;
-    margin-right: 10px;
-    margin-left: calc(100% - 310px);
+    margin-left: calc(100% - 320px);
     background-color: white;
     text-align: center;
 	position: absolute;
