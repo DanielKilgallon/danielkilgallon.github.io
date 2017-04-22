@@ -57,7 +57,6 @@
 /* sub-heading styling */
 .profession {
     color: maroon;
-    font-size: 18px;
     margin-top:3px;
     margin-bottom:3px;
 }
@@ -110,7 +109,29 @@ a:hover {
 	}
 	
 	.box {
+		width: calc(100% - 30px);
+		height:550px;
 		box-shadow: 0px 0px 30px black;
-		margin-left: calc(50% - 160px);
+		margin-left: 10px;
+	}
+	
+	.info {
+		width: calc(100% - 46px);
+		height:350px;
+		margin-top:570px;
+	}
+	
+	.head-image {
+		width: 50%;
+		height: 70%;
+	}
+	
+	.text {
+		font-family: 'Raleway';
+		font-size:24px;
+	}
+	
+	.tooltip:hover .popup {
+		visibility: hidden;
 	}
 }
