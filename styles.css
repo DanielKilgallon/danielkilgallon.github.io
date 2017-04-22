@@ -119,7 +119,7 @@ a:hover {
 	.info {
 		width: calc(100% - 50px);
 		padding:5px;
-		height:350px;
+		height:auto;
 		position: relative;
 	}
 	
@@ -130,7 +130,7 @@ a:hover {
 	
 	.text {
 		font-family: 'Raleway';
-		font-size:24px;
+		font-size:32px;
 	}
 	
 	.tooltip:hover .popup {
