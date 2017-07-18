@@ -130,7 +130,7 @@ a:hover {
 	
 	.text {
 		font-family: 'Raleway';
-		font-size:32px;
+		font-size:auto;
 	}
 	
 	.tooltip:hover .popup {
