@@ -2,7 +2,7 @@
 
 The source code to my personal website.
 
-## Authors
+## Contributors
 
 * **Daniel Kilgallon** - Creator and Maintainer
 * **HTML5up** - Website Template
