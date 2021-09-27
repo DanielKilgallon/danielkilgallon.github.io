@@ -7,8 +7,7 @@
 (function($) {
 
 	var	$window = $(window),
-		$body = $('body'),
-		$wrapper = $('#wrapper');
+		$body = $('body');
 
 	// Breakpoints.
 		breakpoints({
@@ -251,8 +250,18 @@
 
 				},
 				fadeSpeed: 300,
-				onPopupClose: function() { $body.removeClass('modal-active'); },
-				onPopupOpen: function() { $body.addClass('modal-active'); },
+				onPopupClose: function() { 
+					$body.removeClass('modal-active');
+					setTimeout(function(){
+						$header.show();
+						$footer.show();
+					},500);
+				},
+				onPopupOpen: function() { 
+					$body.addClass('modal-active');
+					$header.hide();
+					$footer.hide();
+				},
 				overlayOpacity: 0,
 				popupCloserText: '',
 				popupHeight: 150,

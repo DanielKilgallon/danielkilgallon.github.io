@@ -1,15 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
 
-.ko-fi::after {
-	content: '\f004';
-	font-weight: 900;
-	font-size: 15px;
-	color: #242629;
-	position: absolute;
-	margin: 5px 0 0 -33px;
-}
-
 @-moz-keyframes spinner {
 	0% {
 		-moz-transform: rotate(0deg);
@@ -72,6 +63,15 @@
 		-ms-transform: rotate(359deg);
 		transform: rotate(359deg);
 	}
+}
+
+.ko-fi::after {
+	content: '\f004';
+	font-weight: 900;
+	font-size: 18px;
+	color: #242629;
+	position: absolute;
+	margin: 3px 0 0 -34px;
 }
 
 html, body, div, span, applet, object,
