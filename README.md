@@ -1,4 +1,4 @@
-# danielkilgallon.me
+# [danielkilgallon.me](danielkilgallon.me)
 
 The source code to my personal website.
 
